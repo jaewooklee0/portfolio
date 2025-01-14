@@ -33,7 +33,7 @@ section {
     text-align: center;
 }
 
-.home, .projects, .about, .development {
+.home, .projects, .about, .development, .skills {
     margin: 1rem auto;
     max-width: 800px;
 }
@@ -68,4 +68,10 @@ footer {
 
 .project-link a:hover {
     text-decoration: underline;
+}
+
+/* Ensure all media content has consistent sizing */
+.media img {
+    height: auto;
+    max-height: 400px;
 }
