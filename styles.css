@@ -75,3 +75,28 @@ footer {
     height: auto;
     max-height: 400px;
 }
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.milestone {
+    background: #007bff;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: block;
+    transition: background 0.3s;
+}
+
+.milestone:hover {
+    background: #0056b3;
+}
