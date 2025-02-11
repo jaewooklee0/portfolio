@@ -100,3 +100,45 @@ footer {
 .milestone:hover {
     background: #0056b3;
 }
+
+/* Additional CSS for Project Development: Early Stages */
+.early-stages {
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.early-stages .media-item {
+    margin: 20px 0;
+}
+
+.early-stages .media-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.early-stages p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.early-stages a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.early-stages a:hover {
+    text-decoration: underline;
+}
+
+.early-stages .media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
