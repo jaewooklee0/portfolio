@@ -142,13 +142,7 @@ footer {
     align-items: center;
     gap: 20px;
 }
- body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f0f0f0;
-        }
+
         .video-container {
             max-width: 800px;
             width: 100%;
